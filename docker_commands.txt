@@ -1,0 +1,12 @@
+1 docker build .  builds a docker image from the docker file in the current working directory
+2 docker run <CONTAINER_ID>  runs a container using an existing docker image
+3 docker run --help
+4 docker start -a <CONTAINER_NAME>  starts the container in an attached mode
+5 docker start -ai <CONTAINER_NAME> starts the container in the attached and interactive mode
+6 docker container prune    remove all stopped containers at once
+7 docker images   lists images
+8 docker rmi <IMAGE_ID> removes images
+9 docker image prune  remove unused images
+10 docker run -p 3000:80 -d --rm <CONTAINER_ID> the --rm automatically removes the container when it has been stopped
+11 docker image inspect <CONTAINER_ID> diplays information about a particular image
+
